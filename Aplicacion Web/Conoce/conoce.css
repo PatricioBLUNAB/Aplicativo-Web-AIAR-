@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .back-button {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+    margin: 20px;
+  }
+  
+  article {
+    text-align: center;
+  }
+  
+  article a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  article img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    transition: transform 0.3s;
+  }
+  
+  article img:hover {
+    transform: scale(1.1);
+  }
+  
+  article h2 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  article p {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  

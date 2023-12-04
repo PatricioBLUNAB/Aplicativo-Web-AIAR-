@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .quiz-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+  }
+  
+  .quiz-box {
+    width: 300px;
+    height: 100px;
+    background-color: #8ED9E5;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .quiz-box:hover {
+    background-color: #d3d3d3;
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  

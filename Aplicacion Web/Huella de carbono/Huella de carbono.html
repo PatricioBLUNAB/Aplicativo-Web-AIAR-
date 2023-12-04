@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cuestionario de Huella de Carbono</title>
+  <link rel="stylesheet" type="text/css" href="./huella de carbono.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Cuestionario de Huella de Carbono</h1>
+    <div id="question-container">
+      <p id="question-text"></p>
+      <div id="options-container">
+        <input type="radio" name="answer" id="option1">
+        <label for="option1" id="option1-label"></label><br>
+        <input type="radio" name="answer" id="option2">
+        <label for="option2" id="option2-label"></label><br>
+        <input type="radio" name="answer" id="option3">
+        <label for="option3" id="option3-label"></label><br>
+      </div>
+    </div>
+    <button id="next-button" onclick="nextQuestion()">Siguiente</button>
+    <div id="result-container" style="display: none;">
+      <h2>Resultado</h2>
+      <p id="result-text"></p>
+    </div>
+  </div>
+
+  <script src="./huella de carbono.js"></script>
+</body>
+</html>

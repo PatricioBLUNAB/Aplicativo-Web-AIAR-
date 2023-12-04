@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz Menu</title>
+  <link rel="stylesheet" type="text/css" href="Quizzes.css">
+</head>
+<body>
+    <div class="page-header">
+    <h1>Quizes</h1>
+    <p>Desde aca puedes escoger un quiz para realizar, los que ya haz realizado estaran marcados en verde</p>
+  </div>
+  <div class="quiz-menu">
+    <div class="quiz-box" onclick="openQuiz('./../Quizz_reciclaje/quizReciclaje.html')" style="background-color: #41CA62;">
+      <h3>Que es el reciclaje?</h3>
+    </div>
+    <div class="quiz-box" onclick="openQuiz('./../Quizz_metodos_de_reciclaje/quizMdR.html')" style="background-color: #41CA62;">
+      <h3>Metodos de reciclaje</h3>
+    </div>
+    <div class="quiz-box" onclick="openQuiz('./../Quizz_tipos_de_reciclaje/quizTiposreciclaje.html')" style="background-color: #41CA62;">
+      <h3>Tipos de desecho</h3>
+    </div>
+    <div class="quiz-box" onclick="openQuiz('./../Quizz_como_desechar/quizdesechos.html')" style="background-color: #41CA62;">
+      <h3>Como desechar residuos</h3>
+    </div>
+    <div class="quiz-box" onclick="openQuiz('./../Quizz_IA/quizIA.html')">
+      <h3>Que es la inteligencia artificial?</h3>
+    </div>
+    <div class="quiz-box" onclick="openQuiz('./../Quizz_machine_learning/quizML.html')">
+      <h3>Que es el machine learning?</h3>
+    </div>
+    <div class="quiz-box" onclick="openQuiz('./../Quizz_redes_neuronales/quizRedesNeuronales.html')">
+      <h3>Que son las redes neuronales?</h3>
+    </div>
+    </div>
+  </div>
+
+  <script>
+    function openQuiz(url) {
+      window.open(url, '_blank');
+    }
+  </script>
+</body>
+</html>
